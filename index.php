@@ -53,27 +53,27 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
       <div id="fcf-form">
             <form class="fcf-form-class" action="process.php" method="post"  novalidate="novalidate">
                 <div class="field">
-                    <label for="Username" class="label has-text-weight-normal">Your name</label>
+                    <label for="Username" class="label has-text-weight-normal">Your db user name</label>
                     <div class="control">
                         <input type="text" name="Username" id="Name" class="input is-full-width" maxlength="100" data-validate-field="Name">
                     </div>
                 </div>
                 <div class="field">
-                    <label for="Email" class="label has-text-weight-normal">Your email address</label>
+                    <label for="password" class="label has-text-weight-normal">Your db password</label>
                     <div class="control">
-                        <input type="email" name="Email" id="Email" class="input is-full-width" maxlength="100" data-validate-field="Email">
+                        <input type="text" name="password" id="password" class="input is-full-width" maxlength="100" data-validate-field="password">
                     </div>
                 </div>
                 <div class="field">
-                    <label for="Phone" class="label has-text-weight-normal">Your phone number (optional)</label>
+                    <label for="host" class="label has-text-weight-normal">Your db host (optional)</label>
                     <div class="control">
-                        <input type="tel" name="Phone" id="Phone" class="input is-full-width" maxlength="30" data-validate-field="Phone">
+                        <input type="text" name="host" id="host" class="input is-full-width" maxlength="300" data-validate-field="host">
                     </div>
                 </div>
                 <div class="field">
-                    <label for="Message" class="label has-text-weight-normal">Your message</label>
+                    <label for="application_name" class="label has-text-weight-normal">Your message</label>
                     <div class="control">
-                        <textarea name="Message" id="Message" class="textarea" maxlength="3000" rows="5" data-validate-field="Message"></textarea>
+                         <input type="text" name="application_name" id="application_name" class="input is-full-width" maxlength="100" data-validate-field="application_name">
                     </div>
                 </div>
                 <div id="fcf-status" class="fcf-status"></div>
